@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arbitrage & Market Data</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <header>
+        <h1>Arbitrage Opportunities & Market Data</h1>
+    </header>
+
+    <main>
+        <!-- Binance Section -->
+        <section>
+            <div class="api-section">
+                <h2>Binance Market Data</h2>
+                <p>Click the button below to fetch market data from Binance.</p>
+                <button onclick="fetchBinanceData()" title="Fetch Binance Data">Fetch Binance Data</button>
+                <div id="binance-result" class="result"></div>
+            </div>
+        </section>
+
+        <!-- Solana Section -->
+        <section>
+            <div class="api-section">
+                <h2>Solana Market Data</h2>
+                <p>Click the button below to fetch market data from Solana.</p>
+                <button onclick="fetchSolanaData()" title="Fetch Solana Data">Fetch Solana Data</button>
+                <div id="solana-result" class="result"></div>
+            </div>
+        </section>
+
+        <!-- Arbitrage Section -->
+        <section>
+            <div class="api-section">
+                <h2>Arbitrage Opportunities</h2>
+                <p>Click the button below to fetch arbitrage opportunities.</p>
+                <button onclick="fetchArbitrageData()" title="Find Arbitrage Data">Fetch Arbitrage Data</button>
+                <div id="arbitrage-result" class="result"></div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Notification Container -->
+    <div id="notification" class="notification hidden"></div>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>
