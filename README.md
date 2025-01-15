@@ -72,7 +72,7 @@ arbitrage-project/
 ## Setup Instructions
 
 ### Clone the repository:
-git clone https://github.com/novapulseio/coding-assignment
+git clone https://github.com/raginee-singh/arbitrage-opportunity.git
 cd arbitrage-project
 
 
